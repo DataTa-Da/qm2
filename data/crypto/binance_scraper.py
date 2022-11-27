@@ -7,7 +7,7 @@ from tqdm import tqdm
 import csv
 
 #url of zip file directory
-binance_klines_base_url = 'https://data.binance.vision/data/spot/daily/klines/BTCUSDT/5m/'
+binance_klines_base_url = 'https://data.binance.vision/?prefix=data/spot/daily/klines/BTCEUR/30m/'
 
 #replaces ?prefix= if present in the url provided
 if 'prefix' in binance_klines_base_url:
@@ -115,5 +115,5 @@ temp_path = os.path.join(os.getcwd(),'temp')
 if not os.path.exists(temp_path):
     os.mkdir(temp_path)
 os.chdir('./temp')
-dates = get_dates('2022-01-01',2)
+dates = get_dates('2022-01-01',15)
 download_and_extract_zips(dates,binance_klines_base_url)
