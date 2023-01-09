@@ -6,11 +6,10 @@ title: Home
 
 # Establishing Causal Relationships between Influential Tweets and Cryptocurrency Prices using Regression Discontinuity.
 
+All source code available on [Github](https://github.com/DataTa-Da/qm2).
 
-## Introduction
 
-
-### Background & Context: What is the trend regarding blockchain and cryptocurrencies?
+## Background & Context: What is the trend regarding blockchain and cryptocurrencies?
 
 Since 2019, blockchain technology has catalysed the public’s interest and
 curiosity. In a nutshell, a blockchain is a distributed database shared among
@@ -20,24 +19,30 @@ many domains such as the Art authentication market (“Blockchain Art Collective
 n.d.). In the financial sector, blockchain has a tremendous popularity as it
 enabled the emergence of what is called: cryptocurrency.
 
-As its name suggests, cryptocurrencies are digital currencies making use of
-blockchain encryption system to generate fiduciary trust (“CRYPTOCURRENCY |
-Cambridge English Dictionary,” n.d.). We regularly hear people sharing positive
-and negative opinions about cryptocurrencies on social media (Twitter, Facebook,
-Discord, Instagram, Reddit, etc.). Whether it comes to discussing the underlying
-philosophy and theory of such an invention or simply debating the potential
-benefits of trading this asset class, it seems like the market behaves very
-responsively to the information being given by highly followed individuals
-(CITATION NEEDED). No matter the truth of their statement, they appear to have
-significant power on coins’ price, endangering market efficiency and legitimacy.
-(CITATION NEEDED)
+As its name suggests, cryptocurrencies are digital currencies making use of 
+blockchain encryption systems to generate fiduciary trust (Frankenfield, 2022).
+We regularly hear people sharing positive and negative opinions about
+cryptocurrencies on social media (Twitter, Facebook, Discord, Instagram, Reddit,
+etc.). Whether it comes to discussing the underlying philosophy and theory of
+such an invention or simply debating the potential benefits of trading this
+asset class, it seems like the market behaves very responsively to the
+information being given by highly followed individuals (Shahzad, Anas, & Bouri,
+2022). No matter the truth of their statement, they appear to have significant
+power on coins’ price, endangering market efficiency and legitimacy.
 
 
-### Literature review and project overview: Where does our research stand in the field?
+## Literature review and project overview: Where does our research stand in the field?
 
-Research has previously been conducted in Behavioural Economics to study how the emotional intelligence of cryptocurrency buyers and investors expressed on social media can be used to forecast the value of specific coins. It was shown that algorithmic trading models fed with Twitter data can, to a satisfying degree of confidence, predict the value of Bitcoin, Bitcoin Cash, and Litecoin (Kraaijeveld & De Smedt, 2020). Additionally, some studies have focused on analysing the effect of tweets from politicians like Donald Trump on the Bitcoin (Huynh, 2021) and the equity markets (Klaus and Koser, 2021).
+Research has previously been conducted in Behavioural Economics to study how the
+emotional intelligence of cryptocurrency buyers and investors expressed on
+social media can be used to forecast the value of specific coins. It was shown
+that algorithmic trading models fed with Twitter data can, to a satisfying
+degree of confidence, predict the value of Bitcoin, Bitcoin Cash, and Litecoin
+(Kraaijeveld & De Smedt, 2020). Additionally, some studies have focused on
+analysing the effect of tweets from politicians like Donald Trump on the Bitcoin
+(Huynh, 2021) and the equity markets (Klaus and Koser, 2021). 
 
-Our research builds on Shahzad, Anas, and Bouri study on the impact of Elon
+Our research builds on Shahzad, Anas, and Bouri study on the impact of Elon 
 Musk’s tweets on Bitcoin and Dogecoin (Shahzad, Anas, & Bouri, 2022) by
 extrapolating their work on two important strands of research. On the one hand,
 we look at crashes, bubbles, and volatility.  On the other hand, we deal with
@@ -48,28 +53,28 @@ intuition that price fluctuations can be the result of influential individuals�
 tweets about the topic.
 
 
-### Group objectives: Why and what for?
+## Group objectives: Why and what for?
 
--   Short-term objective
+###   Short-term objective
 
-    We aim to understand the interactions between Twitter, influential individuals,
-    and the cryptocurrency market from the prism of Data Science, and Statistics.
-    Establishing causal relationships between tweets and cryptocurrencies’ price
-    fluctuation would give us insights which could then be interpreted
-    qualitatively. In such a scenario, we would then be able to generalise previous
-    research and build a revised investment thesis, opening perspectives on social
-    media&rsquo;s role in the Economy’s efficiency.
+We aim to understand the interactions between Twitter, influential individuals,
+and the cryptocurrency market from the prism of Data Science, and Statistics.
+Establishing causal relationships between tweets and cryptocurrencies’ price
+fluctuation would give us insights which could then be interpreted
+qualitatively. In such a scenario, we would then be able to generalise previous
+research and build a revised investment thesis, opening perspectives on social
+media&rsquo;s role in the Economy’s efficiency.
 
--   Long-term objective (Not covered in this paper)
+### Long-term objective (Not covered in this paper)
 
-    Provided that we find causality, we would be interested in enhancing the current
-    algorithmic trading models, which use community sentiment analysis to predict
-    the value of several coins. If it appears that a significant number of price
-    fluctuations are triggered by a small group of people, then, quantifying their
-    sentiment and behaviour on Twitter, we would be able to predict to a satisfying
-    degree of confidence, over short durations, the apparition of bubbles and
-    crashes. After proof of concept, this model could be used as a tool in
-    investors’ decision-making process.
+Provided that we find causality, we would be interested in enhancing the current
+algorithmic trading models, which use community sentiment analysis to predict
+the value of several coins. If it appears that a significant number of price
+fluctuations are triggered by a small group of people, then, quantifying their
+sentiment and behaviour on Twitter, we would be able to predict to a satisfying
+degree of confidence, over short durations, the apparition of bubbles and
+crashes. After proof of concept, this model could be used as a tool in
+investors’ decision-making process.
 
 
 ## Data and Methodology
@@ -337,11 +342,9 @@ relationships between tweets and cryptocurrency performance.
 
 Blockchain Art Collective. (n.d.). Retrieved from Blockchain Art Collective
 website: <https://blockchainartcollective.com/CRYPTOCURRENCY> | meaning in the
-Cambridge English Dictionary. (n.d.). Retrieved from dictionary.cambridge.org
-website:<https://dictionary.cambridge.org/dictionary/english/cryptocurrencyHayes>, A.
 (2022, September 27). Blockchain Explained. Retrieved from Investopedia website:
 <https://www.investopedia.com/terms/b/blockchain.aspKraaijeveld>, O., & De
-Smedt, J. (2020). The predictive power of public Twitter sentiment for
+Frankenfield, J. (2022, May 28). Cryptocurrency. Retrieved from Investopedia website: https://www.investopedia.com/terms/c/cryptocurrency.aspSmedt, J. (2020). The predictive power of public Twitter sentiment for
 forecasting cryptocurrency prices. Journal of International Financial Markets,
 Institutions and Money, 65, 101188.
 <https://doi.org/10.1016/j.intfin.2020.101188Shahzad>, S. J. H., Anas, M., &
