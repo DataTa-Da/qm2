@@ -8,8 +8,26 @@ title: Home
 
 All source code available on [Github](https://github.com/DataTa-Da/qm2).
 
+- [Background & Context](#b&c)
+- [Literature review and project overview](#litrev)
+- [Group objectives](#grpobj)
+  - [Short-term objective](#shortterm)
+  - [Long-term objective](#longterm)
+- [Data and Methodology](#d&m)
+  - [Sharp Regression Discontinuity and Bandwidth Selection](#sharpreg)
+  - [Before/After Box Plots](#beforeafter)
+  - [Placebo Tests (Falsification Checks)](#placebos)
+- [Results and Discussion](#results)
+  - [Regression Discontinuity Models](#regdiscmod)
+  - [Box Plots](#boxplots)
+  - [Placebo Tests](#placebores)
+- [Conclusions, Implications and Future Research](#conclusion)
+- [Bibliography](#bib)
 
-## Background & Context: What is the trend regarding blockchain and cryptocurrencies?
+
+
+<a name="b&c"></a>
+## Background & Context: What is the trend regarding blockchain and cryptocurrencies?  
 
 Since 2019, blockchain technology has catalysed the public’s interest and
 curiosity. In a nutshell, a blockchain is a distributed database shared among
@@ -31,6 +49,7 @@ information being given by highly followed individuals (Shahzad, Anas, & Bouri,
 power on coins’ price, endangering market efficiency and legitimacy.
 
 
+<a name="litrev"></a>
 ## Literature review and project overview: Where does our research stand in the field?
 
 Research has previously been conducted in Behavioural Economics to study how the
@@ -53,8 +72,11 @@ intuition that price fluctuations can be the result of influential individuals�
 tweets about the topic.
 
 
+<a name="grpobj"></a>
 ## Group objectives: Why and what for?
 
+
+<a name="shortterm"></a>
 ###   Short-term objective
 
 We aim to understand the interactions between Twitter, influential individuals,
@@ -65,6 +87,7 @@ qualitatively. In such a scenario, we would then be able to generalise previous
 research and build a revised investment thesis, opening perspectives on social
 media&rsquo;s role in the Economy’s efficiency.
 
+<a name="longterm"></a>
 ### Long-term objective (Not covered in this paper)
 
 Provided that we find causality, we would be interested in enhancing the current
@@ -77,6 +100,7 @@ crashes. After proof of concept, this model could be used as a tool in
 investors’ decision-making process.
 
 
+<a name="d&m"></a>
 ## Data and Methodology
 
 We began by selecting a small sample of tweets mentioning crypto currencies that
@@ -99,6 +123,7 @@ Twitter&rsquo;s API with the Tweet Lookup endpoint.
 The same quantitative analysis was then performed on each dataset.
 
 
+<a name="sharpreg"></a>
 ### Sharp Regression Discontinuity and Bandwidth Selection
 
 The time of a tweet&rsquo;s creation was treated as a treatment effect on the asset
@@ -136,6 +161,7 @@ predictions of candidate models were also produced in order to ensure the
 finalised one made qualitative sense.
 
 
+<a name="beforeafter"></a>
 ### Before/After Box Plots
 
 Once the model bandwidth finalised, comparative box plots of the asset prices
@@ -144,6 +170,7 @@ and another for after it. This way, summary statistics of the values before and
 after the tweet could be easily compared.
 
 
+<a name="placebos"></a>
 ### Placebo Tests (Falsification Checks)
 
 A thousand Placebo Tests of each tweet&rsquo;s finalised model were performed at
@@ -160,9 +187,11 @@ iteration. Histograms were then produced to visualise the distribution of these
 coefficients, with normal distributions being fitted whenever appropriate.
 
 
+<a name="results"></a>
 ## Results and Discussion
 
 
+<a name="regdiscmod"></a>
 ### Regression Discontinuity Models
 
 All the parameters of the finalised models of each tweet are listed in [Table 3](#tbl3).
@@ -231,6 +260,7 @@ Discontinuity, Mayor Francis and Willy Woo&rsquo;s fall into the same category a
 those of Michael Saylor, in spite of any kind of trend in price after the cutoff.
 
 
+<a name="boxplots"></a>
 ### Box Plots
 
 The various box plots of each tweet&rsquo;s cryptocurrency prices, in the context of
@@ -254,6 +284,7 @@ experience sudden shocks after specific tweets, and those that experience more
 gradual changes, as previously touched on.
 
 
+<a name="placebores"></a>
 ### Placebo Tests
 
 In conducting Placebo Tests we wanted to get any idea for the distribution of
@@ -304,6 +335,7 @@ of their respective assets&rsquo; price around their cutoffs is well within expe
 behaviour.
 
 
+<a name="conclusion"></a>
 ## Conclusions, Implications and Future Research
 
 Although Sharp Regression Discontinuity can detect and quantify the shocks
@@ -338,6 +370,7 @@ data, then new quantitative approaches need to be taken to establishing causal
 relationships between tweets and cryptocurrency performance.
 
 
+<a name="bib"></a>
 ## Bibliography
 
 Blockchain Art Collective. (n.d.). Retrieved from Blockchain Art Collective
