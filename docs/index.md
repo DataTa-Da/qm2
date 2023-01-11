@@ -4,6 +4,7 @@ title: Home
 ---
 
 
+
 # Establishing Causal Relationships between Influential Tweets and Cryptocurrency Prices using Regression Discontinuity.
 
 All source code available on [Github](https://github.com/DataTa-Da/qm2).
@@ -23,7 +24,6 @@ All source code available on [Github](https://github.com/DataTa-Da/qm2).
   - [Placebo Tests](#placebores)
 - [Conclusions, Implications and Future Research](#conclusion)
 - [Bibliography](#bib)
-
 
 
 <a name="b&c"></a>
@@ -239,7 +239,7 @@ each models&rsquo; predictions [Figure 1](#fig1).
 
 We discover that the six 6 tweets fall into 2 separate cases: some assets
 experience a shock near the cutoff while others experience a more gradual, if at
-all. In the case of asset&rsquo;s that experience shocks, like Nayib Bukele&rsquo;s tweet
+all. In the case of assets that experience shocks, like Nayib Bukele&rsquo;s tweet
 for example, the Regression Discontinuity model offers a reliable estimate of
 the impact a tweet might have on a cryptocurrency&rsquo;s price. Bukele&rsquo;s model
 suggests, with both significance and confidence [Table 3](#tbl3), that his tweet caused a
@@ -272,7 +272,9 @@ exemption. In all other cases, the interquartile ranges of the before and after
 plots don&rsquo;t even overlap.
 
 <div id="fig2" class="figure">
-<p class="figcaption"><span class="figure-number">Figure 2: </span>Collection of Box Plots of the Asset Price of Each Tweet&rsquo;s Cryptocurrency Before and After the Tweet, within the Tweet&rsquo;s Finalised Model&rsquo;s Bandwidth</p>
+<p class="figcaption"><span class="figure-number">Figure 2: </span>Collection of
+Box Plots of the Asset Price of Each Tweet&rsquo;s Cryptocurrency Before and
+After the Tweet, within the Tweet&rsquo;s Finalised Model&rsquo;s Bandwidth</p>  
 </div>
 ![img](./assets/images/Box Plots.png "Collection of Box Plots of the Asset Price of Each Tweet&rsquo;s Cryptocurrency Before and After the Tweet, within the Tweet&rsquo;s Finalised Model&rsquo;s Bandwidth")
 
